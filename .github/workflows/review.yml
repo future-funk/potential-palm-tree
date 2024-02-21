@@ -12,6 +12,6 @@ jobs:
       - name: 'Checkout Repository'
         uses: actions/checkout@v4
       - name: 'Dependency Review'
-        uses: actions/dependency-review-action@bug-with-comments
+        uses: actions/dependency-review-action@jsoref-fix
         with:
           fail-on-severity: high
